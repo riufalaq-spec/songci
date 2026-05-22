@@ -1,0 +1,5431 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "P6QH3B",
+      "x": 0,
+      "y": 0,
+      "name": "Page1-Home",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Y3jrJ",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "plp3z",
+              "fill": "$text-primary",
+              "content": "宋词别苑",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "KJfQS",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vjs96",
+                  "fill": "$accent-red",
+                  "content": "首页",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PRign",
+                  "fill": "$text-secondary",
+                  "content": "宋词三百首",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "BVKzS",
+                  "fill": "$text-secondary",
+                  "content": "文人墨客",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LEmUD",
+                  "fill": "$text-secondary",
+                  "content": "我的雅集",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SAtrv",
+          "name": "main-content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "N39Jw",
+              "name": "poem-display",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "D5gMAA",
+                  "fill": "$border-subtle",
+                  "width": 1,
+                  "height": 120
+                },
+                {
+                  "type": "frame",
+                  "id": "vTTPc",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Pz99a",
+                      "fill": "$text-primary",
+                      "content": "明月几时有？把酒问青天。",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 36,
+                      "letterSpacing": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "KCm10",
+                      "fill": "$text-secondary",
+                      "content": "—— 苏轼《水调歌头》",
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "O8usGu",
+                  "fill": "$border-subtle",
+                  "width": 1,
+                  "height": 120
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bYQg5",
+              "name": "search-container",
+              "width": 560,
+              "fill": "$surface-card",
+              "cornerRadius": 4,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "gap": 12,
+              "padding": [
+                14,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "fzW1U",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-secondary"
+                },
+                {
+                  "type": "text",
+                  "id": "DjnfO",
+                  "fill": "$text-secondary",
+                  "content": "输入关键词、诗人或词牌名...",
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rxDDi",
+              "name": "quick-tags",
+              "width": 560,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g0owM",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DyDjD",
+                      "fill": "$text-secondary",
+                      "content": "推荐词牌",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bOpFQ",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lVLlH",
+                          "fill": "$text-primary",
+                          "content": "浣溪沙",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OgKT2",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K9tq9",
+                          "fill": "$text-primary",
+                          "content": "定风波",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h3xWl",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YPc79",
+                          "fill": "$text-primary",
+                          "content": "水调歌头",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z0K7p",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DerVD",
+                          "fill": "$text-primary",
+                          "content": "蝶恋花",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BUQ5A",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tLMTU",
+                          "fill": "$text-primary",
+                          "content": "念奴娇",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ypk97",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X4po20",
+                      "fill": "$text-secondary",
+                      "content": "名家",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "k8VRTk",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZQrb3",
+                          "fill": "$text-primary",
+                          "content": "苏轼",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m1jZzf",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fdFEh",
+                          "fill": "$text-primary",
+                          "content": "辛弃疾",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "o86Th",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T5fgA",
+                          "fill": "$text-primary",
+                          "content": "李清照",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XQrVZ",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mDLe9",
+                          "fill": "$text-primary",
+                          "content": "柳永",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Dzp09",
+                      "fill": "$surface-card",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        6,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yb2Rl",
+                          "fill": "$text-primary",
+                          "content": "晏殊",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BtjqM",
+              "name": "featured-300",
+              "width": 560,
+              "fill": "$accent-red",
+              "cornerRadius": 4,
+              "padding": [
+                20,
+                28
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Q65RM",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PbnAz",
+                      "fill": "$text-inverse",
+                      "content": "《宋词三百首》",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZNAhD",
+                      "fill": "$text-inverse",
+                      "content": "精选经典，品味千年词韵",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon_font",
+                  "id": "e2hoi",
+                  "width": 24,
+                  "height": 24,
+                  "iconFontName": "arrow-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-inverse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "f9trO",
+          "name": "footer",
+          "width": "fill_container",
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Pc67E",
+              "fill": "$text-secondary",
+              "content": "数据来源：chinese-poetry 开放数据集  ·  宋词别苑 © 2026",
+              "fontFamily": "$font-caption",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "eZIJg",
+      "x": 3280,
+      "y": 0,
+      "name": "Page3-AuthorProfile",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "JELaH",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "PSjYH",
+              "fill": "$text-primary",
+              "content": "宋词别苑",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "y8UlR",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sUJUw",
+                  "fill": "$text-secondary",
+                  "content": "首页",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "DcQtD",
+                  "fill": "$text-secondary",
+                  "content": "宋词三百首",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "kf0Tw",
+                  "fill": "$accent-red",
+                  "content": "文人墨客",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NrnL6",
+                  "fill": "$text-secondary",
+                  "content": "我的雅集",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BuZPw",
+          "name": "main-content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "gap": 40,
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "r7Tk1",
+              "name": "sidebar",
+              "width": 400,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gKaiy",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JRWyG",
+                      "width": 120,
+                      "height": 120,
+                      "fill": "$border-subtle",
+                      "cornerRadius": 60,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 2,
+                        "fill": "$border-subtle"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "sDXj2",
+                      "fill": "$text-primary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 28,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "lY6Eb",
+                      "fill": "$text-secondary",
+                      "content": "1037 - 1101",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IMqcw",
+                      "fill": "$text-secondary",
+                      "content": "四川眉山",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "edR3u",
+                  "fill": "$border-subtle",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "FtemK",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    4
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n1RBfa",
+                      "fill": "$text-primary",
+                      "content": "生平简介",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "p6v6m",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "苏轼，字子瞻，号东坡居士，世称苏东坡。北宋著名文学家、书法家、美食家、画家。嘉祐二年进士及第。宋神宗时在凤翔、杭州、密州、徐州、湖州等地任职。宋哲宗时因乌台诗案被贬黄州。",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LWJLN",
+              "name": "works-area",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FCvKC",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "V9ytW",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IP7lv",
+                      "fill": "$text-secondary",
+                      "content": "在苏轼作品中搜索...",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "w3mbl",
+                  "fill": "$text-secondary",
+                  "content": "共 321 首词作",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "RX1Lp",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "p4JCM",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o4KHO",
+                          "fill": "$accent-red",
+                          "content": "【水调歌头】",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "aLz77",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "明月几时有？把酒问青天。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mGdpm",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a30Fl8",
+                          "fill": "$accent-red",
+                          "content": "【念奴娇】",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "pqWe7",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "大江东去，浪淘尽，千古风流人物。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o8T8tS",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wBJBu",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qD7N7",
+                          "fill": "$accent-red",
+                          "content": "【江城子】",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "k9uEU5",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "十年生死两茫茫，不思量，自难忘。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TwC5v",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IGY7r",
+                          "fill": "$accent-red",
+                          "content": "【定风波】",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "m2xICV",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "莫听穿林打叶声，何妨吟啸且徐行。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uJhh8",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CqMkJ",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G8l7DM",
+                          "fill": "$accent-red",
+                          "content": "【蝶恋花】",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "dD97h",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "花褪残红青杏小，燕子飞时，绿水人家绕。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bxNZn",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "siOBX",
+                          "fill": "$accent-red",
+                          "content": "【临江仙】",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "rUcDk",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "夜饮东坡醒复醉，归来仿佛三更。",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "U9CJK",
+      "x": 4920,
+      "y": 0,
+      "name": "Page4-Collection",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "v0CHiX",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "A5i2MB",
+              "fill": "$text-primary",
+              "content": "宋词别苑",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "M6oYqs",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "U6FfX6",
+                  "fill": "$text-secondary",
+                  "content": "首页",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hjUGy",
+                  "fill": "$text-secondary",
+                  "content": "宋词三百首",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GnGgo",
+                  "fill": "$text-secondary",
+                  "content": "文人墨客",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dx2v5",
+                  "fill": "$accent-red",
+                  "content": "我的雅集",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CBasW",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            16,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "GPAxz",
+              "fill": "$text-primary",
+              "content": "我的雅集",
+              "fontFamily": "$font-heading",
+              "fontSize": 28,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g85Ot",
+          "width": 120,
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "pWkMb",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                12,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d5vfM",
+                  "fill": "$accent-red",
+                  "content": "我收藏的词",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "kdJez",
+                  "fill": "$accent-red",
+                  "width": 60,
+                  "height": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GmeX6",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                12,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hVlSQ",
+                  "fill": "$text-secondary",
+                  "content": "我点赞的词",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JCQGu",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                12,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j6QlH",
+                  "fill": "$text-secondary",
+                  "content": "寻踪足迹",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "e5gN9",
+          "fill": "$border-subtle",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "i3yRi",
+          "name": "cards-grid",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            24,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "sboE0",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V9C5Uc",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cusqc",
+                      "fill": "$accent-red",
+                      "content": "水调歌头",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZZiOA",
+                      "fill": "$text-secondary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mTmWv",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "明月几时有？把酒问青天。不知天上宫阙，今夕是何年。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y0iS4",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cOybd",
+                      "fill": "$accent-red",
+                      "content": "念奴娇",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "u7bqB",
+                      "fill": "$text-secondary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V7fjG",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CWo2B",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q3fH7h",
+                      "fill": "$accent-red",
+                      "content": "声声慢",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "T7BEK",
+                      "fill": "$text-secondary",
+                      "content": "李清照",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b0zhBH",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R01ugY",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MByap",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C0AFs",
+                      "fill": "$accent-red",
+                      "content": "青玉案",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "IaVgi",
+                      "fill": "$text-secondary",
+                      "content": "辛弃疾",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hiR9N",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "东风夜放花千树，更吹落，星如雨。宝马雕车香满路。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dvbNa",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JUCpS",
+                      "fill": "$accent-red",
+                      "content": "雨霖铃",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "f3eeie",
+                      "fill": "$text-secondary",
+                      "content": "柳永",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jOvYd",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "寒蝉凄切，对长亭晚，骤雨初歇。都门帐饮无绪，留恋处，兰舟催发。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b9ITD",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aqsf9",
+                      "fill": "$accent-red",
+                      "content": "浣溪沙",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "X7PlYM",
+                      "fill": "$text-secondary",
+                      "content": "晏殊",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n6VhC",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "D0XrrT",
+      "x": 1500,
+      "y": 0,
+      "name": "Page2-CiDetail-Dialog",
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ZHset",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "MW10T",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "d4vUA",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "arrow-left",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "Q4yNyx",
+                  "fill": "$text-primary",
+                  "content": "返回首页",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o2dDM",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "op4LP",
+                  "fill": "$text-secondary",
+                  "content": "横排",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Uh8LJ",
+                  "fill": "$border-subtle",
+                  "content": "|",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "C5RWR",
+                  "fill": "$accent-red",
+                  "content": "竖排",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NtDsS",
+          "name": "main-content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FZyka",
+              "name": "scroll",
+              "width": 680,
+              "fill": "$surface-card",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "padding": [
+                40,
+                56
+              ],
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "f9dkv",
+                  "fill": "$border-subtle",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "Z8cRB",
+                  "width": "fill_container",
+                  "height": 20
+                },
+                {
+                  "type": "frame",
+                  "id": "gACZb",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HftNS",
+                      "fill": "$text-primary",
+                      "content": "水调歌头",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 32,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "yWu1K",
+                      "fill": "$text-secondary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wgGOU",
+                  "width": "fill_container",
+                  "height": 28
+                },
+                {
+                  "type": "frame",
+                  "id": "yPTEC",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CeimW",
+                      "fill": "$text-primary",
+                      "content": "明月几时有？把酒问青天。",
+                      "lineHeight": 2,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "RAXr4",
+                      "fill": "$text-primary",
+                      "content": "不知天上宫阙，今夕是何年。",
+                      "lineHeight": 2,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "bzhyD",
+                      "fill": "$text-primary",
+                      "content": "我欲乘风归去，又恐琼楼玉宇，",
+                      "lineHeight": 2,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qi1Pw",
+                      "fill": "$text-primary",
+                      "content": "高处不胜寒。",
+                      "lineHeight": 2,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "oNkAi",
+                      "fill": "$text-primary",
+                      "content": "起舞弄清影，何似在人间。",
+                      "lineHeight": 2,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 20,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "u80Mlf",
+                  "width": "fill_container",
+                  "height": 28
+                },
+                {
+                  "type": "rectangle",
+                  "id": "Z3BKZG",
+                  "fill": "$border-subtle",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sgkT7",
+          "name": "footer",
+          "width": "fill_container",
+          "gap": 48,
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "acPxf",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Ev3Js",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "heart",
+                  "iconFontFamily": "lucide",
+                  "fill": "$accent-red"
+                },
+                {
+                  "type": "text",
+                  "id": "yd7yB",
+                  "fill": "$text-secondary",
+                  "content": "128",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v8uA4a",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "i4jRm",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "bookmark",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-secondary"
+                },
+                {
+                  "type": "text",
+                  "id": "FUI9I",
+                  "fill": "$text-secondary",
+                  "content": "收藏",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LGfMW",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "HWJLK",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "share-2",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-secondary"
+                },
+                {
+                  "type": "text",
+                  "id": "D5PRF",
+                  "fill": "$text-secondary",
+                  "content": "分享",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YrzdH",
+      "x": 6560,
+      "y": 0,
+      "name": "Page5-SongCi300",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "CYlsn",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "w8Q41",
+              "fill": "$text-primary",
+              "content": "宋词别苑",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "fgjFH",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eg9uw",
+                  "fill": "$text-secondary",
+                  "content": "首页",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "M8cRzM",
+                  "fill": "$accent-red",
+                  "content": "宋词三百首",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Eld7u",
+                  "fill": "$text-secondary",
+                  "content": "文人墨客",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "eHgPG",
+                  "fill": "$text-secondary",
+                  "content": "我的雅集",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "P0X3g",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            8,
+            80,
+            24,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "i1Vnrh",
+              "fill": "$text-primary",
+              "content": "宋词三百首 · 经典留传",
+              "fontFamily": "$font-heading",
+              "fontSize": 28,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "s6e82",
+              "fill": "$text-secondary",
+              "content": "精选经典，品味千年词韵",
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Iig8N",
+          "fill": "$border-subtle",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "SW4qr",
+          "name": "cards-grid",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            24,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "cnoTD",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BDK79",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "P79vb",
+                      "fill": "$accent-red",
+                      "content": "水调歌头",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "rPfPf",
+                      "fill": "$text-secondary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uC7yV",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "明月几时有？把酒问青天。不知天上宫阙，今夕是何年。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bcOlE",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V2eEXY",
+                      "fill": "$accent-red",
+                      "content": "念奴娇",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "ot4kH",
+                      "fill": "$text-secondary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UpHwP",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ij4uH",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bmu2w",
+                      "fill": "$accent-red",
+                      "content": "声声慢",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "DiLTk",
+                      "fill": "$text-secondary",
+                      "content": "李清照",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jNJqP",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fYVIg",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "o9m5T",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p3qmn",
+                      "fill": "$accent-red",
+                      "content": "青玉案",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "x2mq1",
+                      "fill": "$text-secondary",
+                      "content": "辛弃疾",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "t0AGh",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "东风夜放花千树，更吹落，星如雨。宝马雕车香满路。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uTfgp",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kt4hq",
+                      "fill": "$accent-red",
+                      "content": "雨霖铃",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "sxM3l",
+                      "fill": "$text-secondary",
+                      "content": "柳永",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UqKyT",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "寒蝉凄切，对长亭晚，骤雨初歇。都门帐饮无绪，留恋处，兰舟催发。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FQUFX",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y5SeUD",
+                      "fill": "$accent-red",
+                      "content": "浣溪沙",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "dpoCO",
+                      "fill": "$text-secondary",
+                      "content": "晏殊",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kmKWf",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ITfDE",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vI5Sr",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dBrSU",
+                      "fill": "$accent-red",
+                      "content": "江城子",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q2Skr",
+                      "fill": "$text-secondary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wXTxf",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RMWJZ",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n2J6tq",
+                      "fill": "$accent-red",
+                      "content": "定风波",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZA0lp",
+                      "fill": "$text-secondary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VjcNS",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AZdwl",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DuqL3",
+                      "fill": "$accent-red",
+                      "content": "蝶恋花",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "xqFO3",
+                      "fill": "$text-secondary",
+                      "content": "柳永",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O88g0",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "伫倚危楼风细细，望极春愁，黯黯生天际。草色烟光残照里。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kjfGk",
+          "width": "fill_container",
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "tjWBg",
+              "fill": "$text-secondary",
+              "content": "数据来源：chinese-poetry 开放数据集  ·  宋词别苑 © 2026",
+              "fontFamily": "$font-caption",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "R6b8E",
+      "x": 8200,
+      "y": 0,
+      "name": "Page2-CiDetail-Vertical-Dialog",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XWj5T",
+          "x": 0,
+          "y": 0,
+          "name": "top-bar",
+          "width": 1440,
+          "height": 60,
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BlpKT",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "UGSAk",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "arrow-left",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "MvP6w",
+                  "fill": "$text-primary",
+                  "content": "返回首页",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iPu5b",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jDFub",
+                  "fill": "$text-secondary",
+                  "content": "横排",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "TqKYm",
+                  "fill": "$border-subtle",
+                  "content": "|",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "m53qZ5",
+                  "fill": "$accent-red",
+                  "content": "竖排",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ew2Tr",
+          "x": 160,
+          "y": 80,
+          "name": "scroll",
+          "width": 1120,
+          "height": 760,
+          "fill": "$surface-card",
+          "cornerRadius": 8,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$border-subtle"
+          },
+          "padding": [
+            40,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "uAJ7q",
+              "name": "left-panel",
+              "width": 120,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "lW5Ff",
+                  "fill": "$border-subtle",
+                  "width": 1,
+                  "height": 60
+                },
+                {
+                  "type": "frame",
+                  "id": "MRx1h",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C7XGUT",
+                      "fill": "$text-primary",
+                      "content": "水",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 28,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "dsYCq",
+                      "fill": "$text-primary",
+                      "content": "调",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 28,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "eVCBO",
+                      "fill": "$text-primary",
+                      "content": "歌",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 28,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "q3QyYc",
+                      "fill": "$text-primary",
+                      "content": "头",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 28,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "jhVdO",
+                  "fill": "$border-subtle",
+                  "width": 1,
+                  "height": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "XzPZT",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eCaIC",
+                      "fill": "$text-secondary",
+                      "content": "苏",
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "f20dFl",
+                      "fill": "$text-secondary",
+                      "content": "轼",
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "iUXbj",
+                  "fill": "$border-subtle",
+                  "width": 1,
+                  "height": 60
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "r6qzwU",
+              "fill": "$border-subtle",
+              "width": 1,
+              "height": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "Mk9cB",
+              "name": "right-panel",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "q5L86",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rfCNb",
+                      "fill": "$text-primary",
+                      "content": "明",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "fbknz",
+                      "fill": "$text-primary",
+                      "content": "月",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ky7Wt",
+                      "fill": "$text-primary",
+                      "content": "几",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "iRSmk",
+                      "fill": "$text-primary",
+                      "content": "时",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "haL3O",
+                      "fill": "$text-primary",
+                      "content": "有",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "SmzQR",
+                      "fill": "$text-primary",
+                      "content": "？",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nPvKo",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r8s3QC",
+                      "fill": "$text-primary",
+                      "content": "把",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZyF4x",
+                      "fill": "$text-primary",
+                      "content": "酒",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "B26fWP",
+                      "fill": "$text-primary",
+                      "content": "问",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "pLHui",
+                      "fill": "$text-primary",
+                      "content": "青",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "ySxn5",
+                      "fill": "$text-primary",
+                      "content": "天",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "cv9v5",
+                      "fill": "$text-primary",
+                      "content": "。",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FHiLS",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oiH8s",
+                      "fill": "$text-primary",
+                      "content": "不",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "iRiKt",
+                      "fill": "$text-primary",
+                      "content": "知",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "oCBJt",
+                      "fill": "$text-primary",
+                      "content": "天",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "qhiEC",
+                      "fill": "$text-primary",
+                      "content": "上",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "ddA6X",
+                      "fill": "$text-primary",
+                      "content": "宫",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "l1bBxr",
+                      "fill": "$text-primary",
+                      "content": "阙",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SzHVm",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p6xWi",
+                      "fill": "$text-primary",
+                      "content": "今",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Smyfq",
+                      "fill": "$text-primary",
+                      "content": "夕",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "sXGON",
+                      "fill": "$text-primary",
+                      "content": "是",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "lwa8L",
+                      "fill": "$text-primary",
+                      "content": "何",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "U3HFDV",
+                      "fill": "$text-primary",
+                      "content": "年",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "f2jLKr",
+                      "fill": "$text-primary",
+                      "content": "。",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "A2mTx1",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R9y0gZ",
+                      "fill": "$text-primary",
+                      "content": "我",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "TP7gl",
+                      "fill": "$text-primary",
+                      "content": "欲",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "neu9a",
+                      "fill": "$text-primary",
+                      "content": "乘",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "H8pOY",
+                      "fill": "$text-primary",
+                      "content": "风",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Cr2dw",
+                      "fill": "$text-primary",
+                      "content": "归",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "KCnnK",
+                      "fill": "$text-primary",
+                      "content": "去",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QTtYW",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IbSkf",
+                      "fill": "$text-primary",
+                      "content": "又",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pvkp4",
+                      "fill": "$text-primary",
+                      "content": "恐",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "mlHjv",
+                      "fill": "$text-primary",
+                      "content": "琼",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "R2o7MD",
+                      "fill": "$text-primary",
+                      "content": "楼",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "atPoF",
+                      "fill": "$text-primary",
+                      "content": "玉",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "bSigb",
+                      "fill": "$text-primary",
+                      "content": "宇",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Nihc5",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ClRvM",
+                      "fill": "$text-primary",
+                      "content": "高",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "UiPbs",
+                      "fill": "$text-primary",
+                      "content": "处",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "sTxhO",
+                      "fill": "$text-primary",
+                      "content": "不",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "QhkS4",
+                      "fill": "$text-primary",
+                      "content": "胜",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "uPFXG",
+                      "fill": "$text-primary",
+                      "content": "寒",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "dgg7G",
+                      "fill": "$text-primary",
+                      "content": "。",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YkddO",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ymMjq",
+                      "fill": "$text-primary",
+                      "content": "起",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "DzYsu",
+                      "fill": "$text-primary",
+                      "content": "舞",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "HDplj",
+                      "fill": "$text-primary",
+                      "content": "弄",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "yb512",
+                      "fill": "$text-primary",
+                      "content": "清",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "a6LSxw",
+                      "fill": "$text-primary",
+                      "content": "影",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SzB3u",
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ab2PW",
+                      "fill": "$text-primary",
+                      "content": "何",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "MxBms",
+                      "fill": "$text-primary",
+                      "content": "似",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "EWLw1",
+                      "fill": "$text-primary",
+                      "content": "在",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "k0lGp",
+                      "fill": "$text-primary",
+                      "content": "人",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "MJDdC",
+                      "fill": "$text-primary",
+                      "content": "间",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "e90Sd",
+                      "fill": "$text-primary",
+                      "content": "。",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 8
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ny03e",
+          "x": 40,
+          "y": 340,
+          "name": "floating-toolbar",
+          "width": 48,
+          "height": 220,
+          "fill": "#2C3539CC",
+          "cornerRadius": 24,
+          "layout": "vertical",
+          "padding": [
+            20,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ln3hU",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "QOYQh",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "heart",
+                  "iconFontFamily": "lucide",
+                  "fill": "$accent-red"
+                },
+                {
+                  "type": "text",
+                  "id": "kf1R5",
+                  "fill": "#FFFFFFCC",
+                  "content": "128",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "DskP3",
+              "fill": "#FFFFFF33",
+              "width": 20,
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "tWolx",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "aJUMY",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "bookmark",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-inverse"
+                },
+                {
+                  "type": "text",
+                  "id": "UEX8J",
+                  "fill": "#FFFFFFCC",
+                  "content": "收藏",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "yXHjP",
+              "fill": "#FFFFFF33",
+              "width": 20,
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "eyShm",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "gEhlN",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "share-2",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-inverse"
+                },
+                {
+                  "type": "text",
+                  "id": "v9pqcz",
+                  "fill": "#FFFFFFCC",
+                  "content": "分享",
+                  "fontFamily": "$font-caption",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cgQrv",
+      "x": 9840,
+      "y": 0,
+      "name": "Page3-AuthorList",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ZyEld",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gGv4y",
+              "fill": "$text-primary",
+              "content": "宋词别苑",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "KBwPM",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fGsZU",
+                  "fill": "$text-secondary",
+                  "content": "首页",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "YJka6",
+                  "fill": "$text-secondary",
+                  "content": "宋词三百首",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "h7nfBF",
+                  "fill": "$accent-red",
+                  "content": "文人墨客",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GQlxR",
+                  "fill": "$text-secondary",
+                  "content": "我的雅集",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zYaBY",
+          "width": "fill_container",
+          "padding": [
+            8,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "fbNKF",
+              "width": "fill_container",
+              "fill": "$surface-card",
+              "cornerRadius": 6,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "gap": 10,
+              "padding": [
+                12,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "kAcUV",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-secondary"
+                },
+                {
+                  "type": "text",
+                  "id": "ckotF",
+                  "fill": "$text-secondary",
+                  "content": "搜索诗人...",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W7K2Nv",
+          "width": "fill_container",
+          "padding": [
+            16,
+            80,
+            8,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "s7uafA",
+              "fill": "$text-primary",
+              "content": "常见诗人",
+              "fontFamily": "$font-heading",
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "x1L8Cu",
+          "name": "poet-grid",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            8,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "tST7k",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x3gMV5",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UYSiD",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-red-light",
+                      "cornerRadius": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q1Ezbx",
+                      "fill": "$text-primary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "Sm2as",
+                      "fill": "$text-secondary",
+                      "content": "1037-1101 · 北宋",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kvyJ3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "明月几时有？把酒问青天。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SmpwF",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "u5zKI",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-red-light",
+                      "cornerRadius": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "e6tWnj",
+                      "fill": "$text-primary",
+                      "content": "辛弃疾",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "KWc04",
+                      "fill": "$text-secondary",
+                      "content": "1140-1207 · 南宋",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ObIpx",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "醉里挑灯看剑，梦回吹角连营。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TripT",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G50szD",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-red-light",
+                      "cornerRadius": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "cewDC",
+                      "fill": "$text-primary",
+                      "content": "李清照",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "imr4V",
+                      "fill": "$text-secondary",
+                      "content": "1084-1155 · 南宋",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FW1No",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "寻寻觅觅，冷冷清清。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WWzY9",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Fkxod",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-red-light",
+                      "cornerRadius": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "eVa18",
+                      "fill": "$text-primary",
+                      "content": "柳永",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "hiixi",
+                      "fill": "$text-secondary",
+                      "content": "984-1053 · 北宋",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tZjfN",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "寒蝉凄切，对长亭晚。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p3WBtP",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "utXN8",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rLJDN",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-red-light",
+                      "cornerRadius": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "nySa5",
+                      "fill": "$text-primary",
+                      "content": "晏殊",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "xPr3g",
+                      "fill": "$text-secondary",
+                      "content": "991-1055 · 北宋",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hfcag",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "一曲新词酒一杯，去年天气旧亭台。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "euU2u",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WsoSf",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-red-light",
+                      "cornerRadius": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "kxdOE",
+                      "fill": "$text-primary",
+                      "content": "陆游",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "C45Fmx",
+                      "fill": "$text-secondary",
+                      "content": "1125-1210 · 南宋",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tJZ90",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "红酥手，黄縢酒，满城春色宫墙柳。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bX3hX",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "P0FhV",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-red-light",
+                      "cornerRadius": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "osaoJ",
+                      "fill": "$text-primary",
+                      "content": "欧阳修",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "OP8Uv",
+                      "fill": "$text-secondary",
+                      "content": "1007-1072 · 北宋",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qoygz",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "把酒祝东风，且共从容。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Eup6F",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TfJ0j",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-red-light",
+                      "cornerRadius": 32
+                    },
+                    {
+                      "type": "text",
+                      "id": "vBSx8",
+                      "fill": "$text-primary",
+                      "content": "秦观",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "yPX5n",
+                      "fill": "$text-secondary",
+                      "content": "1049-1100 · 北宋",
+                      "fontFamily": "$font-caption",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R9hr3",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "纤云弄巧，飞星传恨，银汉迢迢暗度。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RF0Cs",
+      "x": 11480,
+      "y": 0,
+      "name": "Page4-Collection-Need-Login",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "B1X1bp",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gJMrW",
+              "fill": "$text-primary",
+              "content": "宋词别苑",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "jpj6q",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hPAv9",
+                  "fill": "$text-secondary",
+                  "content": "首页",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "c8nHpm",
+                  "fill": "$text-secondary",
+                  "content": "宋词三百首",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "q7Rmw",
+                  "fill": "$text-secondary",
+                  "content": "文人墨客",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "n019a",
+                  "fill": "$accent-red",
+                  "content": "我的雅集",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k4fhj",
+          "name": "empty-state",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "G8J7R4",
+              "fill": "$border-subtle",
+              "width": 60,
+              "height": 2
+            },
+            {
+              "type": "text",
+              "id": "NonYX",
+              "fill": "$text-primary",
+              "content": "「 私家雅集，暂未开启 」",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "RFRUx",
+              "fill": "$text-secondary",
+              "content": "登录后可收藏与点赞您钟爱的词作",
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "LnHKv",
+              "fill": "$border-subtle",
+              "width": 60,
+              "height": 2
+            },
+            {
+              "type": "frame",
+              "id": "DIRlb",
+              "fill": "$accent-red",
+              "cornerRadius": 4,
+              "gap": 8,
+              "padding": [
+                14,
+                40
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KVgId",
+                  "fill": "$text-inverse",
+                  "content": "即刻登录",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "of8GB",
+          "width": "fill_container",
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "V8eqrH",
+              "fill": "$text-secondary",
+              "content": "数据来源：chinese-poetry 开放数据集  ·  宋词别苑 © 2026",
+              "fontFamily": "$font-caption",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "t2fEOe",
+      "x": 13120,
+      "y": 0,
+      "name": "Page5-AccountCenter",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "TCEIf",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "VXSmd",
+              "fill": "$text-primary",
+              "content": "宋词别苑",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "PyWWe",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GFXfS",
+                  "fill": "$text-secondary",
+                  "content": "首页",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "p1bJi",
+                  "fill": "$text-secondary",
+                  "content": "宋词三百首",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "K0IBZ",
+                  "fill": "$text-secondary",
+                  "content": "文人墨客",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "P0yX4u",
+                  "fill": "$text-secondary",
+                  "content": "我的雅集",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b1ScM",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JwpfR",
+              "name": "auth-card",
+              "width": 420,
+              "fill": "$surface-card",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000D",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 16
+              },
+              "layout": "vertical",
+              "gap": 28,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RY49N",
+                  "fill": "$text-primary",
+                  "content": "账号中心",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 24,
+                  "fontWeight": "normal",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "v5n68i",
+                  "width": "fill_container",
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VrZku",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        8,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rtuLO",
+                          "fill": "$accent-red",
+                          "content": "登录",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "R7mJbT",
+                          "fill": "$accent-red",
+                          "width": 40,
+                          "height": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DC33C",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        8,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nAlG3",
+                          "fill": "$text-secondary",
+                          "content": "注册",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "S3cVgY",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        8,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jCCxj",
+                          "fill": "$text-secondary",
+                          "content": "忘记密码",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "D9Ff6a",
+                  "fill": "$border-subtle",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "kf7HL",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qA5fA",
+                      "fill": "$text-primary",
+                      "content": "邮箱地址",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c14Gj",
+                      "width": "fill_container",
+                      "fill": "$bg-paper",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gaslP",
+                          "fill": "$text-secondary",
+                          "content": "请输入邮箱地址",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ws4Vi",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VqEXh",
+                      "fill": "$text-primary",
+                      "content": "密码",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vnxpM",
+                      "width": "fill_container",
+                      "fill": "$bg-paper",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VTix2",
+                          "fill": "$text-secondary",
+                          "content": "请输入密码",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "l23Ds",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "eye-off",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-secondary"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "pYini",
+                  "fill": "$accent-red",
+                  "content": "忘记密码？",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "W2OHBE",
+                  "width": "fill_container",
+                  "fill": "$accent-red",
+                  "cornerRadius": 4,
+                  "padding": [
+                    14,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z1sRM",
+                      "fill": "$text-inverse",
+                      "content": "登 录",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zOj4B",
+                  "width": "fill_container",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "J1CPk",
+                      "fill": "$text-secondary",
+                      "content": "还没有账号？",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UtGyL",
+                      "fill": "$accent-red",
+                      "content": "立即注册",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OGNqH",
+          "width": "fill_container",
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "P3ZqP",
+              "fill": "$text-secondary",
+              "content": "数据来源：chinese-poetry 开放数据集  ·  宋词别苑 © 2026",
+              "fontFamily": "$font-caption",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "odibB",
+      "x": 0,
+      "y": 1100,
+      "name": "Page1-Home-SearchState",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "g1zqk",
+          "name": "navbar",
+          "width": "fill_container",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "MKYIw",
+              "fill": "$text-primary",
+              "content": "宋词别苑",
+              "fontFamily": "$font-heading",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "cb5os",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N7i0gi",
+                  "fill": "$accent-red",
+                  "content": "首页",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "P5UZo0",
+                  "fill": "$text-secondary",
+                  "content": "宋词三百首",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "g0Em0Y",
+                  "fill": "$text-secondary",
+                  "content": "文人墨客",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "w17Zm",
+                  "fill": "$text-secondary",
+                  "content": "我的雅集",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ILu6y",
+          "name": "main-content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "u5LMk",
+              "name": "poem-display",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "r9DzB",
+                  "fill": "$border-subtle",
+                  "width": 1,
+                  "height": 120
+                },
+                {
+                  "type": "frame",
+                  "id": "J79ty",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yLGzb",
+                      "fill": "$text-primary",
+                      "content": "明月几时有？把酒问青天。",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 36,
+                      "fontWeight": "normal",
+                      "letterSpacing": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "L0IjV",
+                      "fill": "$text-secondary",
+                      "content": "—— 苏轼《水调歌头》",
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "XGt46",
+                  "fill": "$border-subtle",
+                  "width": 1,
+                  "height": 120
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x8DXe",
+              "width": "fill_container",
+              "height": 32
+            },
+            {
+              "type": "frame",
+              "id": "Y7oQ15",
+              "name": "search-active",
+              "width": 560,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "duF2t",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "$accent-red"
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "dHidc",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pcq4T",
+                      "fill": "$text-primary",
+                      "content": "苏轼",
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Cr8id",
+                      "fill": "$accent-red",
+                      "width": 2,
+                      "height": 20
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rvDKu",
+                  "name": "search-popover",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000001A",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gSniN",
+                      "width": "fill_container",
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OUGCj",
+                          "fill": "$text-secondary",
+                          "content": "诗人",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OJx6A",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Q3Yqa",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$accent-red-light",
+                          "cornerRadius": 16
+                        },
+                        {
+                          "type": "frame",
+                          "id": "adv5u",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "MZJVS",
+                              "fill": "$text-primary",
+                              "content": "苏轼",
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Ag7DJ",
+                              "fill": "$text-secondary",
+                              "content": "北宋 · 四川眉山",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I0mmZr",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "q03Im",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$accent-red-light",
+                          "cornerRadius": 16
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pP1wq",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "x2cIh",
+                              "fill": "$text-primary",
+                              "content": "苏辙",
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "YZ9fz",
+                              "fill": "$text-secondary",
+                              "content": "北宋 · 四川眉山",
+                              "fontFamily": "$font-caption",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "FLDN7",
+                      "fill": "$border-subtle",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "G5RhOM",
+                      "width": "fill_container",
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ku0tJ",
+                          "fill": "$text-secondary",
+                          "content": "词牌",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "git9o",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KKlQN",
+                          "fill": "$text-primary",
+                          "content": "水调歌头",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vDcZB",
+                          "fill": "$text-secondary",
+                          "content": "· 苏轼",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "P7pHpY",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ClITh",
+                          "fill": "$text-primary",
+                          "content": "念奴娇",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "f1oqfL",
+                          "fill": "$text-secondary",
+                          "content": "· 苏轼",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "vcziR",
+                      "fill": "$border-subtle",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PLzlM",
+                      "width": "fill_container",
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j8KE2",
+                          "fill": "$text-secondary",
+                          "content": "词句",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 11,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y7oZh",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "asGWq",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "明月几时有？把酒问青天。",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YyLQB",
+                          "fill": "$text-secondary",
+                          "content": "—— 苏轼《水调歌头》",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fNFKg",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D1DjOO",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "大江东去，浪淘尽，千古风流人物。",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "I8RSE",
+                          "fill": "$text-secondary",
+                          "content": "—— 苏轼《念奴娇》",
+                          "fontFamily": "$font-caption",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "s9uNry",
+          "width": "fill_container",
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ZwkQg",
+              "fill": "$text-secondary",
+              "content": "数据来源：chinese-poetry 开放数据集  ·  宋词别苑 © 2026",
+              "fontFamily": "$font-caption",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-red": {
+      "type": "color",
+      "value": "#C93726"
+    },
+    "accent-red-light": {
+      "type": "color",
+      "value": "#F5E6E3"
+    },
+    "bg-paper": {
+      "type": "color",
+      "value": "#F9F6F0"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#E8E2D8"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Newsreader"
+    },
+    "font-caption": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Playfair Display"
+    },
+    "surface-card": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#2C3539"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#6B7280"
+    }
+  }
+}

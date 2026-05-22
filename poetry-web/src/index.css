@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', serif;
+  background-color: #F9F6F0;
+  color: #2C3539;
+  height: 100%;
+  overflow: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Vertical writing mode for classical layout */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 0.15em;
+  line-height: 2.2;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E8E2D8;
+}
+::-webkit-scrollbar-thumb {
+  background: #C93726;
+  border-radius: 3px;
+}

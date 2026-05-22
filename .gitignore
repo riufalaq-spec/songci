@@ -1,0 +1,15 @@
+# IDE / System
+.DS_Store
+.vscode/
+.idea/
+
+# Backend (Go)
+poetry-service/.env
+poetry-service/poetry-service
+
+# Frontend (React/Vite)
+poetry-web/node_modules/
+poetry-web/dist/
+poetry-web/tsconfig.tsbuildinfo
+poetry-web/.env.local
+
