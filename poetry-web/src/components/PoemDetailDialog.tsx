@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { getPoemDetail, toggleLike, toggleFavorite, addHistory } from '../api'
 import { useAuthStore } from '../store/auth'
 import { parseParagraphs } from '../utils/paragraphs'
@@ -25,13 +25,15 @@ export default function PoemDetailDialog({ poemId, source, onClose }: PoemDetail
   const [vertical, setVertical] = useState(false)
   const [loading, setLoading] = useState(true)
   const { isLoggedIn } = useAuthStore()
+  const historySent = useRef(false)
 
   useEffect(() => {
     setLoading(true)
     getPoemDetail(poemId, source)
       .then((res: any) => {
         setPoem(res.data)
-        if (isLoggedIn()) {
+        if (isLoggedIn() && !historySent.current) {
+          historySent.current = true
           addHistory(poemId, source).catch(() => { })
         }
       })
@@ -45,29 +47,26 @@ export default function PoemDetailDialog({ poemId, source, onClose }: PoemDetail
     return () => { document.body.style.overflow = prev }
   }, [])
 
+  const refreshPoem = async () => {
+    try {
+      const res: any = await getPoemDetail(poemId, source)
+      setPoem(res.data)
+    } catch { }
+  }
+
   const handleLike = async () => {
     if (!isLoggedIn()) return
     try {
-      const res: any = await toggleLike(poemId, source)
-      setPoem((prev) =>
-        prev
-          ? {
-            ...prev,
-            is_liked: res.data.liked,
-            like_count: prev.like_count + (res.data.liked ? 1 : -1),
-          }
-          : prev
-      )
+      await toggleLike(poemId, source)
+      await refreshPoem()
     } catch { }
   }
 
   const handleFavorite = async () => {
     if (!isLoggedIn()) return
     try {
-      const res: any = await toggleFavorite(poemId, source)
-      setPoem((prev) =>
-        prev ? { ...prev, is_favorited: res.data.favorited } : prev
-      )
+      await toggleFavorite(poemId, source)
+      await refreshPoem()
     } catch { }
   }
 
